@@ -13,4 +13,4 @@
 
 -----------------
 
-# CryptoBoat 🔍
+# CryptoBoat 
