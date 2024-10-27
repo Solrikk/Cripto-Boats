@@ -1,4 +1,4 @@
-![Logo](https://github.com/Solrikk/CryptoBoat/blob/main/assets/OpenCV%20-%20result/bee.jpg)
+![Logo](https://github.com/Solrikk/CryptoBoat/blob/main/assets/232845.png)
 
 <div align="center">
   <h3>
