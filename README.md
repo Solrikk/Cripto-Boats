@@ -13,6 +13,15 @@
   </h3>
 </div>
 
+## ⚠️ IMPORTANT DISCLAIMER ⚠️
+### This trading bot is currently in EXPERIMENTAL/BETA testing phase. By using this software:
+1. You acknowledge that cryptocurrency trading involves substantial RISK OF LOSS
+2. The bot uses AI/ML models that are still being tested and improved
+3. You accept full responsibility for any financial losses that may occur
+4. Past performance does not guarantee future results
+5. Only trade with funds you can afford to lose
+6. This is NOT financial advice - use at your own risk
+
 ## Overview 📊
 
 CryptoBoat is an advanced cryptocurrency trading bot powered by artificial intelligence. It combines LSTM neural networks and Random Forest algorithms to make intelligent trading decisions in the cryptocurrency futures market.
