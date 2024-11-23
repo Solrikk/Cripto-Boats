@@ -1,6 +1,6 @@
-# CryptoBoat 🚀
+# Small-Boats 🚀
 
-![Logo](https://github.com/Solrikk/CryptoBoat/blob/main/assets/232845.png)
+![Баланс: 10 USDT](https://s3.timeweb.cloud/68597a50-pictrace/photo_2024-11-12_03-23-43.jpg)
 
 <div align="center">
   <h3>
@@ -24,7 +24,12 @@
 
 ## Overview 📊
 
-**CryptoBoat** is an cryptocurrency trading bot developed using cutting-edge Artificial Intelligence technologies. The primary objective of this project is to automate the trading process in the cryptocurrency futures market, providing users with tools to make informed and effective trading decisions.
+**CryptoBoat** is is a **semi-automated cryptocurrency trading system** that emphasizes manual control over key trading decisions while managing multiple positions simultaneously. Unlike fully automated bots, this strategy allows you to:
+
+- Manually control Take-Profit and Stop-Loss levels
+- Open multiple strategic positions across different assets
+- Benefit from risk diversification through position spreading
+- Offset potential losses with gains from other positions
 
 ## Key Features 🔥
 
@@ -33,10 +38,11 @@
   
 The combined use of these models significantly improves prediction accuracy and reduces the number of false signals.
 
-- **Advanced Technical Analysis**: Multiple technical indicators including RSI, MACD, Bollinger Bands
-- **Risk Management**: Smart position sizing and automated risk control
-- **Multi-Symbol Support**: Trades top volume cryptocurrencies
-- **Performance Logging**: Detailed trade logs and performance metrics
+- **Manual Position Management**: Full control over entry/exit points
+- **Multi-Position Strategy**: Spread risk across different cryptocurrencies
+- **Risk Balancing**: Losses in some positions can be covered by profits in others
+- **Portfolio Overview**: Real-time monitoring of all open positions
+- **Risk Management Tools**: Custom position sizing and risk calculation
 
 # Installation
 To get started with CryptoBoat, follow these installation and setup steps:
@@ -52,3 +58,4 @@ python3 -m venv venv
 source venv/bin/activate  # For Linux/Mac
 venv\Scripts\activate     # For Windows
 ```
+⚠️ **While this system provides tools and infrastructure for trading, all final decisions are made by you, the trader, combining the benefits of technological assistance with human judgment.**
