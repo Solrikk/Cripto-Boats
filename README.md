@@ -22,6 +22,16 @@
 5. **Capital Management:** Trade only with funds you can afford to lose. Do not invest money that is necessary for your living expenses or other essential purposes.
 6. **No Financial Advice:** This software is NOT financial advice. Use it at your own risk and consult with professional financial advisors before making investment decisions.
 
+## Support the Project 💖
+
+If you've found this project helpful or profitable, consider supporting its development:
+
+<div align="center">
+  <img src="https://github.com/Solrikk/Small-Boats/blob/main/assets/photo/qrcode.png" alt="Donation QR Code" width="200"/>
+</div>
+
+Your donations help maintain and improve the project, ensuring its continued development and enhancement.
+
 # Small-Boats 🚀
 
 ----
@@ -187,16 +197,6 @@ python main.py
 - Adjust position sizes in `calculate_position_size()`
 - Modify risk percentage (default: 0.3%)
 - Set custom stop-loss levels
-
-## Support the Project 💖
-
-If you've found this project helpful or profitable, consider supporting its development:
-
-<div align="center">
-  <img src="https://github.com/Solrikk/Small-Boats/blob/main/assets/photo/qrcode.png" alt="Donation QR Code" width="200"/>
-</div>
-
-Your donations help maintain and improve the project, ensuring its continued development and enhancement.
 
 ⚠️ **Remember**: Past performance does not guarantee future results. Always trade responsibly and within your risk tolerance.
 
