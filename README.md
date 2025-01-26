@@ -27,6 +27,14 @@
 
 **CryptoBoat** is a **semi-automated cryptocurrency trading system** that emphasizes manual control over key trading decisions while managing multiple positions simultaneously. Unlike fully automated bots, this strategy allows you to:
 
+[![Visitors](https://api.visitorbadge.io/api/visitors?path=https%3A%2F%2Fgithub.com%2FSolrikk%2FSmall-Boats&label=Views&countColor=%232ccce4)](https://visitorbadge.io/status?path=https%3A%2F%2Fgithub.com%2FSolrikk%2FSmall-Boats)
+[![GitHub stars](https://img.shields.io/github/stars/Solrikk/Small-Boats?style=flat&logo=github&color=yellow)](https://github.com/Solrikk/Small-Boats/stargazers)
+[![Profile Views](https://komarev.com/ghpvc/?username=Solrikk&color=brightgreen&style=flat&label=Profile+Views)](https://github.com/Solrikk)
+[![GitHub license](https://img.shields.io/github/license/Solrikk/Small-Boats?color=blue&style=flat)](https://github.com/Solrikk/Small-Boats/blob/main/LICENSE)
+[![Python](https://img.shields.io/badge/Python-3.7%2B-blue?style=flat&logo=python)](https://www.python.org)
+[![FastAPI](https://img.shields.io/badge/FastAPI-modern-green?style=flat&logo=fastapi)](https://fastapi.tiangolo.com)
+
+
 - Manually control Take-Profit and Stop-Loss levels
 - Open multiple strategic positions across different assets
 - Benefit from risk diversification through position spreading
