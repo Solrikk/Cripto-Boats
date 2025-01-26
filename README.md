@@ -1,7 +1,6 @@
+![Logo](https://s3.timeweb.cloud/68597a50-pictrace/photo_2024-11-12_03-23-43.jpg)
 
-# Small-Boats 🚀
-
-![Balance: 10 USDT](https://s3.timeweb.cloud/68597a50-pictrace/photo_2024-11-12_03-23-43.jpg)
+-----------------
 
 <div align="center">
   <h3>
@@ -22,6 +21,10 @@
 4. **No Guarantee of Performance:** Past performance does not guarantee future results. The cryptocurrency market is highly volatile and can change rapidly.
 5. **Capital Management:** Trade only with funds you can afford to lose. Do not invest money that is necessary for your living expenses or other essential purposes.
 6. **No Financial Advice:** This software is NOT financial advice. Use it at your own risk and consult with professional financial advisors before making investment decisions.
+
+# Small-Boats 🚀
+
+----
 
 ## Overview 📊
 
