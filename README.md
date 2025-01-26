@@ -1,6 +1,7 @@
+
 # Small-Boats 🚀
 
-![Баланс: 10 USDT](https://s3.timeweb.cloud/68597a50-pictrace/photo_2024-11-12_03-23-43.jpg)
+![Balance: 10 USDT](https://s3.timeweb.cloud/68597a50-pictrace/photo_2024-11-12_03-23-43.jpg)
 
 <div align="center">
   <h3>
@@ -24,38 +25,174 @@
 
 ## Overview 📊
 
-**CryptoBoat** is is a **semi-automated cryptocurrency trading system** that emphasizes manual control over key trading decisions while managing multiple positions simultaneously. Unlike fully automated bots, this strategy allows you to:
+**CryptoBoat** is a **semi-automated cryptocurrency trading system** that emphasizes manual control over key trading decisions while managing multiple positions simultaneously. Unlike fully automated bots, this strategy allows you to:
 
 - Manually control Take-Profit and Stop-Loss levels
 - Open multiple strategic positions across different assets
 - Benefit from risk diversification through position spreading
 - Offset potential losses with gains from other positions
 
-## Key Features 🔥
+## Technical Details 🔧
 
-- **LSTM (Long Short-Term Memory):** A neural network capable of capturing temporal dependencies and forecasting future price movements.
-- **Random Forest:** An ensemble learning algorithm that enhances prediction accuracy by combining multiple decision trees.
-  
-The combined use of these models significantly improves prediction accuracy and reduces the number of false signals.
+### AI Models Used
+1. **LSTM (Long Short-Term Memory)**
+   - Specialized neural network for time series prediction
+   - Capable of learning long-term dependencies
+   - Optimized for cryptocurrency price movement patterns
+   - Uses multiple technical indicators for enhanced accuracy
 
-- **Manual Position Management**: Full control over entry/exit points
-- **Multi-Position Strategy**: Spread risk across different cryptocurrencies
-- **Risk Balancing**: Losses in some positions can be covered by profits in others
-- **Portfolio Overview**: Real-time monitoring of all open positions
-- **Risk Management Tools**: Custom position sizing and risk calculation
+2. **Random Forest**
+   - Ensemble learning algorithm
+   - Combines multiple decision trees
+   - Reduces overfitting through aggregation
+   - Provides robust market trend predictions
 
-# Installation
-To get started with CryptoBoat, follow these installation and setup steps:
+### Technical Indicators
+- RSI (Relative Strength Index)
+- EMA (Exponential Moving Average)
+- MACD (Moving Average Convergence Divergence)
+- Bollinger Bands
+- Ichimoku Cloud
+- VWAP (Volume Weighted Average Price)
+- ATR (Average True Range)
 
-1. Clone the Repository:
+## Performance Features 🎯
+
+- Real-time market data processing
+- Multi-timeframe analysis
+- Advanced risk management system
+- Position size optimization
+- Automated entry/exit signals
+- Portfolio rebalancing
+- Custom indicator combinations
+
+## Technical Architecture 🔧
+
+### System Components
+1. **Neural Networks**
+   - LSTM Network: 2-layer bidirectional architecture
+   - Input shape: (60, 18) - 60 timeframes, 18 features
+   - Hidden layers: 100 units each with dropout (0.3)
+   - Output: Binary classification (buy/sell signal)
+
+2. **Random Forest Classifier**
+   - Ensemble of 100 decision trees
+   - Feature flattening: 1080 dimensions (60 timeframes × 18 features)
+   - Class balancing with SMOTE
+   - Parallel prediction processing
+
+3. **Technical Indicators**
+   - Price-based: EMA, Bollinger Bands, Ichimoku
+   - Momentum: RSI, MACD, Stochastic
+   - Volume: VWAP
+   - Volatility: ATR
+
+## Installation & Setup 🛠️
+
+### Prerequisites
+- Python 3.8+
+- GPU recommended for faster model training
+- Minimum 4GB RAM
+- Bybit account with API access
+
+### Step-by-Step Installation
+
+1. **Initialize Project:**
 ```bash
 git clone https://github.com/Solrikk/CryptoBoat.git
 cd CryptoBoat
 ```
-2. Create and Activate a Virtual Environment:
+
+2. **Install Required Packages:**
 ```bash
-python3 -m venv venv
-source venv/bin/activate  # For Linux/Mac
-venv\Scripts\activate     # For Windows
+pip install numpy pandas tensorflow scikit-learn ta ccxt matplotlib
 ```
-⚠️ **While this system provides tools and infrastructure for trading, all final decisions are made by you, the trader, combining the benefits of technological assistance with human judgment.**
+
+3. **Configure Exchange:**
+Update `main.py` with your Bybit API credentials:
+```python
+API_KEY = "your_api_key"    # From Bybit dashboard
+API_SECRET = "your_api_secret"
+```
+
+4. **Configure Risk Parameters:**
+In `main.py`, adjust trading parameters:
+```python
+risk_percentage = 0.3  # Risk per trade (0.3%)
+TRADE_COOLDOWN = 60   # Seconds between trades
+```
+
+### Running the Bot
+
+1. **Initial Launch:**
+```bash
+python main.py
+```
+
+2. **Monitor Operations:**
+- Check `trading_bot_derivatives.log` for real-time status
+- Review `trades_log.json` for trade history
+
+### System Architecture
+
+```
+Input Data → Feature Engineering → Model Prediction → Trading Logic
+    ↓              ↓                    ↓               ↓
+OHLCV Data → Technical Indicators → LSTM + RF → Position Management
+```
+
+### Performance Monitoring
+- Log files track all operations
+- Real-time balance updates
+- Trade execution confirmations
+- Error handling and reporting
+
+### Risk Management
+- Position sizing based on account balance
+- Maximum risk per trade: 0.3%
+- Trade cooldown period: 60 seconds
+- Automatic error recovery
+- Multiple validation layers
+
+### Error Handling
+- Network disconnect protection
+- API error recovery
+- Invalid data detection
+- Balance verification
+- Order validation
+
+## Usage Guide 📚
+
+1. Start the Bot:
+```bash
+python main.py
+```
+
+2. Monitor the Logs:
+- Check `trading_bot_derivatives.log` for detailed operation logs
+- Review trade history in `trades_log.json`
+
+3. Configure Risk Parameters:
+- Adjust position sizes in `calculate_position_size()`
+- Modify risk percentage (default: 0.3%)
+- Set custom stop-loss levels
+
+## Support the Project 💖
+
+If you've found this project helpful or profitable, consider supporting its development:
+
+<div align="center">
+  <img src="https://github.com/Solrikk/Small-Boats/blob/main/assets/photo/qrcode.png" alt="Donation QR Code" width="200"/>
+</div>
+
+Your donations help maintain and improve the project, ensuring its continued development and enhancement.
+
+⚠️ **Remember**: Past performance does not guarantee future results. Always trade responsibly and within your risk tolerance.
+
+## Community & Support 🤝
+
+- Join our community discussions
+- Share your trading strategies
+- Report issues and suggest improvements
+- Help others get started
+
