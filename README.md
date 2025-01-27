@@ -62,6 +62,8 @@ Your donations help maintain and improve the project, ensuring its continued dev
    - Optimized for cryptocurrency price movement patterns
    - Uses multiple technical indicators for enhanced accuracy
 
+![LSTM](https://github.com/Solrikk/Small-Boats/blob/main/assets/photo/41598_2019_55861_Fig1_HTML.png)
+
 2. **Random Forest**
    - Ensemble learning algorithm
    - Combines multiple decision trees
