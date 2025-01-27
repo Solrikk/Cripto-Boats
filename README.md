@@ -70,6 +70,8 @@ Your donations help maintain and improve the project, ensuring its continued dev
    - Reduces overfitting through aggregation
    - Provides robust market trend predictions
 
+![LSTM](https://github.com/Solrikk/Small-Boats/blob/main/assets/photo/057fdd00-3964-11ea-9859-07aa53d55407.png)
+
 ### Technical Indicators
 - RSI (Relative Strength Index)
 - EMA (Exponential Moving Average)
