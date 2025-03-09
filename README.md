@@ -27,8 +27,10 @@
 If you've found this project helpful or profitable, consider supporting its development:
 
 <div align="center">
-  <img src="https://github.com/Solrikk/Small-Boats/blob/main/assets/photo/qrcode.png" alt="Donation QR Code" width="200"/>
+  <img src="https://github.com/Solrikk/Cripto-Boats/blob/main/assets/photo/photo_2025-03-09_17-35-29.jpg" alt="Donation QR Code" width="400"/>
 </div>
+
+Code - **bc1q80hqj3crwysc5nwd6u8pzc6lrsau6peuvrz6te**
 
 Your donations help maintain and improve the project, ensuring its continued development and enhancement.
 
